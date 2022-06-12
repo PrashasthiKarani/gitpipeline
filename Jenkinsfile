@@ -20,10 +20,9 @@ stages{
       echo"deloying the pipeline"
     }
  }
-  post {
+post {
     always {
-      echo "This will always be executed"
-      
+      echo "This will always be executed"  
     }
     
   }
