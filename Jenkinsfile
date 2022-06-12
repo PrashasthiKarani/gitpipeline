@@ -20,6 +20,13 @@ stages{
       echo"deloying the pipeline"
     }
  }
+  post {
+    always {
+      echo "This will always be executed"
+      
+    }
+    
+  }
 
 }
 }
